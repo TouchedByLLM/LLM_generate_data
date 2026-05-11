@@ -75,7 +75,6 @@ def prompt_for_python_code(gesture_or_emotion, analysis):
     5. All the sensor data should be between 0 and 255,  in integer format, no decimal values,
     please note 255 is the maximum pressure value, which mean the pressure is the highest.
     6. The CSV file should have a header row with column names like 'sensor_0_0', 'sensor_0_1', etc.
-    7 please generate the pattern more obvious in the data, so that it is easier to analyze the data.
     """
 
     response = openai.ChatCompletion.create(
